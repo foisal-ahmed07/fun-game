@@ -1,9 +1,22 @@
 @media screen and (max-width: 576px) {
 
-    .nav-main, .nav-right{
+    .nav-main, .nav-right, .header-main{
         flex-direction: column;
         gap: 20px;
+    } 
+    .header-left, .header-main, .game-img{
+        width: 70%;
+        margin: 0 auto;
+        
     }
+    .game-img{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+   
+    
+
     
     
 }
