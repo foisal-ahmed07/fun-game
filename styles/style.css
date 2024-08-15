@@ -10,7 +10,7 @@ body{
 }
 /* shared section style */
 
-.header-container, .game-container, .play-instant-main, .career-main{
+.header-main, .game-container, .play-instant-main, .career-main{
     max-width: 1040px;
     margin: 50px auto;
 }
@@ -63,6 +63,11 @@ body p{
 }
 
 /* header section style start */
+.header-container{
+    background-image: url(../resources/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
 
 .header-main{
     display: flex;
@@ -73,6 +78,7 @@ body p{
 }
 .header-left{
     width: 100%;
+    
 
 }
 .header-left h1, .funny{
