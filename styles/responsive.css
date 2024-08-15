@@ -1,10 +1,10 @@
 @media screen and (max-width: 576px) {
 
-    .nav-main, .nav-right, .header-main{
+    .nav-main, .nav-right, .header-main, .play-instant-main, .career-main{
         flex-direction: column;
         gap: 20px;
     } 
-    .header-left, .header-main, .game-img{
+    .header-left, .header-main, .game-img, .play-instant-main, .career-main{
         width: 70%;
         margin: 0 auto;
         
@@ -12,6 +12,21 @@
     .game-img{
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+    }
+    .play-instant-right .top-img{
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+    .play-instant-right .bottom-img{
+        width:100px ;
+        
+    }
+    .career-main, .career-right img{
+        margin-top: 100px;
+    }
+    .career-main{
+        padding-top: 100px;
     }
     
    

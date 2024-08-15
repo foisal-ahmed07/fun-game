@@ -8,6 +8,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* shared section style */
+
+.header-container, .game-container, .play-instant-main, .career-main{
+    max-width: 1040px;
+    margin: 50px auto;
+}
 
 /* navbar style start here */
 .nav-container{
@@ -53,10 +59,7 @@ body{
 }
 
 /* header section style start */
-.header-container, .game-container{
-    max-width: 1040px;
-    margin: 50px auto;
-}
+
 .header-main{
     display: flex;
     justify-content: space-between;
@@ -159,5 +162,86 @@ body{
     display: block;
   
 }
+/* play-instant-main section style start */
+
+.play-instant-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+       
+}
+.play-instant-left{
+    width: 100%;
+}
+.play-instant-left h1{
+   font-size: 3rem;
+   margin-bottom: 20px;
+}
+.play-instant-right .top-img{
+    width: 100%;
+    
+}
+.play-instant-right{
+    position: relative;
+     
+    
+}
+.play-instant-right .bottom-img{
+    position: absolute;
+    left: -60px;
+    bottom: -30px;
+    width:150px ;
+    
+}
+
+/* carrer section style start */
+.career-container{
+    background-color: #FF42A5;
+    
+}
+
+.career-main{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+.career-left{
+    color: white;
+    width: 90%;
+    
+
+}
+.career-right img {
+   width: 100%;
+    
+    
+
+}
+.left-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:30px;
+
+}
+.left-side-content p, .right-side-content p{
+    margin-bottom: 10px;
+
+}
+.career-btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    color: #FF42A5;
+    font-weight: bold;
+    
+    
+}
+
 
 
