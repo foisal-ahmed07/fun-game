@@ -221,7 +221,7 @@ body p{
 }
 .career-left {
     color: white;
-    width: 90%;
+    width: 100%;
     
 
 }
@@ -231,8 +231,6 @@ body p{
 .career-right img {
    width: 100%;
     
-    
-
 }
 .left-container{
     display: flex;
@@ -240,21 +238,110 @@ body p{
     align-items: center;
     position: relative;
     top:30px;
+    
 
 }
 .left-side-content p, .right-side-content p{
     margin-bottom: 10px;
 
 }
-.career-btn{
-    padding: 10px 20px;
-    border-radius: 30px;
+.carrer-btn{
+    padding: 15px 30px;
     border: none;
-    color: #FF42A5;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #F948B2;
     font-weight: bold;
-    
+    position: relative;
+    left: 150px;
     
 }
+
+/* category section start */
+
+.category-main{
+    max-width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 10px ;
+    
+}
+
+.cetagory-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 180px;
+   margin: 10px auto;
+    font-size: 15px;
+
+}
+.cetagory-content img{
+    width: 40px;
+}
+.cetagory-content:hover{
+    outline: 1px solid  #FF42A5;
+    border-radius: 50px;
+    
+}
+
+/* footer section style start */
+footer{
+    background-color: #0B0223;
+}
+
+.footer-main{
+    width: 1040px;
+    margin: 50px auto;
+    height: 500px;
+    color: white;
+    align-content: center;
+   
+}
+.footer-main p{
+    color:white;
+    text-align: center;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+    
+}
+
+.footer-help{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 50px;
+
+}
+.footer-contact{
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    margin-bottom: 50px;
+    gap: 40px;
+    font-size: 40px;
+
+}
+.footer-setting{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+
+}
+
+
 
 
 

@@ -28,6 +28,35 @@
     .career-main{
         padding-top: 100px;
     }
+    .footer-main{
+        width: 70%; 
+        margin: 20px auto;
+        height: 800px;
+       
+    }
+   
+    .footer-top{
+        margin-top: 20px;
+ 
+    }
+    .footer-help{
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer-contact{
+
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .footer-setting{
+        
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    .footer-copyright{
+        
+        text-align: center;
+    }
     
    
     
